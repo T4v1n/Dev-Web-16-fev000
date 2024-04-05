@@ -10,7 +10,7 @@ app.set("view engine","handlebars");
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
 
-app.listen("8080", ()=>{
+app.listen("8081", ()=>{
     console.log("Servidor ativo!");
 });
 
